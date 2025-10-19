@@ -1,0 +1,50 @@
+{
+  "name": "@egvelho/next-meta",
+  "version": "1.16.14",
+  "description": "Metadata management for Next.js on top of NetlifyCMS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "typecheck": "tsc",
+    "clean-project": "node scripts/clean-project",
+    "generate-assets": "node ./src/utils/generate-assets app.json public",
+    "resize-image-assets": "node ./src/utils/resize-image-assets .next/static/images public/images -size 640"
+  },
+  "bin": {
+    "generate-assets": "./utils/generate-assets.js",
+    "resize-image-assets": "./utils/resize-image-assets.js"
+  },
+  "author": "eduardavelho",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "1.0.0-rc.10",
+    "favicons": "^6.2.2",
+    "netlify-cms": "^2.10.158",
+    "netlify-cms-core": "^2.47.2",
+    "remark-highlight.js": "^6.0.0",
+    "remark-html": "^12.0.0",
+    "remark-parse": "^9.0.0",
+    "sharp": "^0.29.0",
+    "sitemap": "^7.0.0",
+    "slug": "^5.1.0",
+    "tslib": "^2.3.1",
+    "unified": "^9.2.2"
+  },
+  "devDependencies": {
+    "@types/favicons": "^6.2.2",
+    "@types/node": "^16.6.2",
+    "@types/react": "^17.0.19",
+    "@types/sharp": "^0.28.5",
+    "@types/slug": "^5.0.2",
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "next": "=11.1.0",
+    "react": "=17.0.2",
+    "react-dom": "=17.0.2"
+  }
+}
