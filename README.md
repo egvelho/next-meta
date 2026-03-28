@@ -1,7 +1,7 @@
 # A static data management layer for Next.js
 
 This package provides an improved programming experience for using NetlifyCMS with Next.js. Also, it provides tools to manage assets (images, icons, manifests) and HTML metadata.
-Please refer to [my website](https://eduardavelho.com) with [full code](https://github.com/egvelho/next-material-netlify-cms-blog) available for usage example.
+Please refer to [my website](https://eduardavelho.com) with [full code](https://github.com/egvelho/egvelho-website) available for usage example.
 
 # What is inside the box?
 
