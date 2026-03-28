@@ -14,7 +14,7 @@
     "generate-assets": "./utils/generate-assets.js",
     "resize-image-assets": "./utils/resize-image-assets.js"
   },
-  "author": "eduardavelho",
+  "author": "egvelho",
   "license": "GPL-3.0",
   "dependencies": {
     "axios": "^0.21.1",
